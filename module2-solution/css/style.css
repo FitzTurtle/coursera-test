@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "Arial", sans-serif; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.inner{
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+#title1 {
+  background-color: lightsalmon;
+  width: 40%;
+  position:relative;
+  border: 1px solid black;
+  top: 0px;
+  left: 60%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 125%;
+}
+
+#title2 {
+  width: 40%;
+  position:relative;
+  border: 1px solid black;
+  top: 0px;
+  left: 60%;
+  margin-top: 0px;
+  text-align: center;
+  background-color: lightblue;
+  font-size: 125%;
+}
+
+#title3 {
+  width: 40%;
+  position:relative;
+  border: 1px solid black;
+  top: 0px;
+  left: 60%;
+  margin-top: 0px;
+  text-align: center;
+  background-color: lightgreen;
+  font-size: 125%;
+}
+
+.row {
+  width: 100%;
+}
+/*Desktops*/
+@media (min-width: 992px) {
+  .col-D {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-T1 {
+    float: left;
+    width: 50%;
+      padding: 10px;
+  }
+  .col-T2{
+    float: left;
+    width:100%;
+      padding: 10px;
+  }
+
+}
+
+
+/*Mobile*/
+@media (max-width: 767px){
+  .col-M{
+    float:left;
+    width:100%;
+      padding: 10px;
+  }
+}
